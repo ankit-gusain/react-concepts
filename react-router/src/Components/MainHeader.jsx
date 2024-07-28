@@ -2,9 +2,18 @@ import React from 'react'
 
 export default function MainHeader() {
   return (
-    <div>MainHeader</div>
+    <div>
+      ITS THE MAIN HEADER PAGE
+    </div>
   )
 }
+
+
+
+
+
+
+
 
 
 

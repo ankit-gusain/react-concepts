@@ -4,7 +4,9 @@ import React from 'react'
 
 export default function NotFound() {
   return (
-    <div>NotFound</div>
+    <div>
+      ITS THE NOT FOUND PAGE
+    </div>
   )
 }
 

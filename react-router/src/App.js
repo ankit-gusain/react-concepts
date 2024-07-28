@@ -1,9 +1,28 @@
-
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+
+import Navbar from './Components/Navbar'
+import About from './Components/About'
+import Home from './Components/Home'
+import Support from './Components/Support'
+import Labs from './Components/Labs'
 
 export default function App() {
   return (
-    <div>App</div>
+    <>
+      <Navbar />
+      <div>
+        <Routes>
+
+          <Route index element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/labs" element={<Labs />} />
+          <Route path="/support" element={<Support />} />
+
+
+        </Routes>
+      </div>
+    </>
   )
 }
 
